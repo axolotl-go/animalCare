@@ -2,7 +2,7 @@ import React from "react";
 
 export default function WhatIs() {
   return (
-    <div className="container mx-auto px-4">
+    <div className="container mx-auto px-4" id="WhatIs">
       <p className="text-4xl font-extrabold text-center mb-10">¿Que es?</p>
 
       <div className="grid lg:grid-cols-2 lg:gap-4 lg:mt-4 mt-10 items-center text-center">

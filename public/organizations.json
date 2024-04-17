@@ -1,0 +1,23 @@
+{
+    "PETA": {
+      "info": "People for the Ethical Treatment of Animals (PETA) es la mayor organización de derechos animales a nivel mundial, con más de 9 millones de miembros y simpatizantes.",
+      "image": ""
+    },
+    "Zoofari": {
+      "info": "Zoofari es un centro de conservación animal ubicado en Amacuzac, Morelos, México1. Fundado con un concepto único, Zoofari ofrece la oportunidad de conocer y convivir con más de 130 especies y 1,300 animales2. Su misión es fomentar la protección de la vida silvestre y promover un estilo de vida que respete y cuide todas las formas de vida.",
+      "image": ""
+    },
+    "UINC": {
+      "info": "La Unión Internacional para la Conservación de la Naturaleza (UICN) es una organización global que une a miembros gubernamentales y de la sociedad civil para trabajar en la conservación de la naturaleza. Fundada en 1948, la UICN se ha convertido en la red ambiental más grande y diversa del mundo, con más de 1,400 organizaciones miembros y 16,000 expertos.",
+      "image": ""
+    },
+    "WAZA": {
+      "info": "La World Association of Zoos and Aquariums (WAZA) es la organización global que representa a los zoológicos y acuarios del mundo. Fundada en 1935, WAZA actúa como una alianza de asociaciones regionales, federaciones nacionales, zoológicos y acuarios, dedicada al cuidado y la conservación de animales y sus hábitats.",
+      "image": ""
+    },
+    "AZA": {
+      "info": "La Asociación de Zoológicos y Acuarios (AZA), fundada en 1924, es una organización sin fines de lucro dedicada a la promoción de parques zoológicos y acuarios públicos en las áreas de conservación, educación, ciencia y recreación1. Con sede en Silver Spring, Maryland, Estados Unidos, la AZA sirve como un organismo acreditador para zoológicos y acuarios, asegurando que cumplan con altos estándares de cuidado animal.",
+      "image": ""
+    }
+  }
+  

@@ -18,10 +18,10 @@ export default function Navbar() {
       </a>
 
       <div className="hidden md:flex gap-6 text-[#04A69F] text-lg">
-        <a className="hover:text-black transition-colors duration-300" href="/#">About us</a>
-        <a className="hover:text-black transition-colors duration-300" href="/#">Marketing</a>
-        <a className="hover:text-black transition-colors duration-300" href="/#">Products</a>
-        <a className="hover:text-black transition-colors duration-300" href="/#">Team</a>
+        <a className="hover:text-black transition-colors duration-300" href="#WhatIs">¿Que es?</a>
+        <a className="hover:text-black transition-colors duration-300" href="#History">Historia</a>
+        <a className="hover:text-black transition-colors duration-300" href="#Organizations">Organizaciones</a>
+        <a className="hover:text-black transition-colors duration-300" href="#AboutUs">Sobre nosotros</a>
       </div>
 
       <div className="md:hidden">
@@ -58,10 +58,10 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden fixed top-0 left-0 right-0 bottom-0 text-[#04A69F] bg-white z-50 flex flex-col w-screen h-screen justify-center items-center text-3xl">
           
-          <a className="hover:text-black transition-colors duration-300 py-3" href="/#">About us</a>
-          <a className="hover:text-black transition-colors duration-300 py-3" href="/#">Marketing</a>
-          <a className="hover:text-black transition-colors duration-300 py-3" href="/#">Prdoducts</a>
-          <a className="hover:text-black transition-colors duration-300 py-3" href="/#">Team</a>
+          <a onClick={() => setIsOpen(!isOpen)} className="hover:text-black transition-colors duration-300 py-3" href="#WhatIs">¿Que es?</a>
+          <a onClick={() => setIsOpen(!isOpen)} className="hover:text-black transition-colors duration-300 py-3" href="#History">Historia</a>
+          <a onClick={() => setIsOpen(!isOpen)} className="hover:text-black transition-colors duration-300 py-3" href="#Organizations">Organizaciones</a>
+          <a onClick={() => setIsOpen(!isOpen)} className="hover:text-black transition-colors duration-300 py-3" href="#Team">Sobre nosotros</a>
 
 
           <button

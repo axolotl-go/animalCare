@@ -1,8 +1,10 @@
 import Hero from "@/app/_sections/Hero";
 import History from "@/app/_sections/History";
 import Navbar from "@/app/_sections/Navbar";
-import Team from "@/app/_sections/Team";
+import AboutUs from "@/app/_sections/AboutUs";
 import WhatIs from "@/app/_sections/WhatIs";
+import Organizations from "@/app/_sections/Organizations";
+import Footer from "./_sections/Footer";
 
 export default function Home() {
   return (
@@ -11,8 +13,9 @@ export default function Home() {
       <Hero />
       <WhatIs />
       <History />
-      <Team />
-
+      <Organizations />
+      <AboutUs />
+      <Footer />
     </main>
   );
 }

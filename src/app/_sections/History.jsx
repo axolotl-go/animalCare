@@ -1,11 +1,11 @@
 export default function History() {
   return (
-    <div className="container mx-auto px-4">
+    <div className="container mx-auto px-4" id="History">
       <p className="text-4xl font-extrabold text-center mb-10">
         Historia y Actualidad del Maltrato Animal
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6 text-lg md:text-xl lg:text-2xl xl:text-2xl">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6 text-lg md:text-xl lg:text-2xl xl:text-2xl text-center">
         <div>
           <p className="font-semibold text-slate-900">
             El maltrato animal ha sido lamentablemente una constante a lo largo
