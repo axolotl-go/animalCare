@@ -9,7 +9,7 @@ export default function AboutUs() {
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6 text-lg md:text-xl lg:text-2xl xl:text-2xl text-center">
-        <div className="md:col-span-2 lg:col-span-1 flex justify-center items-center">
+        {/* <div className="md:col-span-2 lg:col-span-1 flex justify-center items-center">
 
         <Image
           className="max-w-gl h-100 rounded overflow-hidden shadow-lg bg-blue-500 border-2 border-blue-500"
@@ -18,7 +18,7 @@ export default function AboutUs() {
           height="100px"
           width="100px"
           />
-          </div>
+          </div> */}
 
         <p className="font-semibold text-slate-900">
           En Animal Care, creemos firmemente que los animales, al igual que los

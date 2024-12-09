@@ -1,4 +1,6 @@
 import React from "react";
+import We from "/public/AMPJU3RJWFHDDCMPOQIAGZLSTQ.jpg";
+import Image from "next/image";
 
 export default function WhatIs() {
   return (
@@ -6,9 +8,9 @@ export default function WhatIs() {
       <p className="text-4xl font-extrabold text-center mb-10">¿Que es?</p>
 
       <div className="grid lg:grid-cols-2 lg:gap-4 lg:mt-4 mt-10 items-center text-center">
-        <img
+        <Image
           className=" w-full rounded-lg aspect-square float-left"
-          src="https://imagenes.elpais.com/resizer/QTlKtBmeFgCvXD6yhKzj6VEn4Yk=/1200x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/AMPJU3RJWFHDDCMPOQIAGZLSTQ.jpg"
+          src={We}
           alt="Dog"
         />
 

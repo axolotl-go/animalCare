@@ -53,7 +53,7 @@ export default function Footer() {
               ></path>
             </svg>
           </a>
-          <a href="https://www.instagram.com/_suzuki_lee_/" className="text-gray-400 hover:text-gray-500">
+          <a href="https://www.instagram.com/Axolotl.go/" className="text-gray-400 hover:text-gray-500">
             <span className="sr-only">Instagram</span>
             <svg
               className="w-6 h-6"
@@ -68,7 +68,7 @@ export default function Footer() {
               ></path>
             </svg>
           </a>
-          <a href="https://github.com/AxolotlJ-Dev" className="text-gray-400 hover:text-gray-500">
+          <a href="https://github.com/Axolotl-go" className="text-gray-400 hover:text-gray-500">
             <span className="sr-only">GitHub</span>
             <svg
               className="w-6 h-6"
