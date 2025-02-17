@@ -1,5 +1,4 @@
 import Image from "next/image";
-import We from "/public/We.jpeg";
 
 export default function AboutUs() {
   return (
@@ -9,18 +8,8 @@ export default function AboutUs() {
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6 text-lg md:text-xl lg:text-2xl xl:text-2xl text-center">
-        {/* <div className="md:col-span-2 lg:col-span-1 flex justify-center items-center">
 
-        <Image
-          className="max-w-gl h-100 rounded overflow-hidden shadow-lg bg-blue-500 border-2 border-blue-500"
-          src={We}
-          alt="Nosotros"
-          height="100px"
-          width="100px"
-          />
-          </div> */}
-
-        <p className="font-semibold text-slate-900">
+        <p className="font-semibold text-slate-900 md:col-span-2">
           En Animal Care, creemos firmemente que los animales, al igual que los
           seres humanos, son entidades vitales que merecen respeto y compasión.
           Somos un grupo de estudiantes de preparatoria unidos por una causa
@@ -41,7 +30,7 @@ export default function AboutUs() {
           cambio significativo en la forma en que los animales son tratados, no
           solo por el bien de ellos, sino por el de toda nuestra sociedad.
         </p>
-        <p className="font-semibold text-slate-900">
+        <p className="font-semibold text-slate-900 ">
           Cada especie animal es única y contribuye de manera invaluable a la
           diversidad y belleza de nuestro planeta. Si queremos que futuras
           generaciones también puedan disfrutar y aprender de estos seres
